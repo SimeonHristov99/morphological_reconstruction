@@ -1,0 +1,10 @@
+Understanding Morphological Image Processing and Its Operations
+    What did the authors try to accomplish?
+        This article is a very good introduction to the two most widely used morphological operations.
+        Talks about erosion, dialation, closing, opening, and edge detection.
+    What were the key elements of the approach?
+        It explains clearly when the value is 1 and 0 when using either erosion or dialation by introducing the process of fit, hit, and miss. I haven't seen them used before.
+    What can you use yourself?
+        Can be used in a presentation on the topic in the introduction part.
+    What other references do you want to follow?
+        It has a reference to this: [1] P Soille. “Morphological Image Analysis, Principles and Applications”, 1999. Could the part with applications help? Yes, just checked - chapter 6: Geodesic Transformations has sections for morphological reconstruction. Definitely will review in the future. Maybe there will be an inspiring application in chapter 12 so will review it as well.

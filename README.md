@@ -5,10 +5,13 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
 ## Plan of attack
 
 - [ ] Research - gain understanding of the task at hand.
-  - [ ] Read *Morphological Reconstruction*.
-  - [ ] Read *Efficient Morphological Reconstruction: A Downhill Filter*.
-  - [ ] Read *How To Make Geodesic Dilation And Erosion In Morphology*.
-  - [ ] Read *Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms*.
+  - [X] Read and add review of *Understanding Morphological Image Processing and Its Operations*.
+  - [ ] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
+  - [ ] Read and add review of chapter 12 from the book *Morphological Image Analysis, Principles and Applications*.
+  - [ ] Read and add review of *Morphological Reconstruction*.
+  - [ ] Read and add review of *Efficient Morphological Reconstruction: A Downhill Filter*.
+  - [ ] Read and add review of *How To Make Geodesic Dilation And Erosion In Morphology*.
+  - [ ] Read and add review of *Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms*.
   - [ ] Explore the API of scikit-image.
 - [ ] Design an MVP.
 - [ ] Based on MVP extend this list with new tasks.
@@ -21,15 +24,19 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
 
 ### Articles
 
-- <https://towardsdatascience.com/understanding-morphological-image-processing-and-its-operations-7bcf1ed11756>
+- [Understanding Morphological Image Processing and Its Operations](https://towardsdatascience.com/understanding-morphological-image-processing-and-its-operations-7bcf1ed11756)
 - [Intro to Morphological Reconstruction](https://www.mathworks.com/help/images/understanding-morphological-reconstruction.html)
 - [Morphological Reconstruction](https://www.ni.com/docs/en-US/bundle/ni-vision-concepts-help/page/morphological_reconstruction.html)
 - [How To Make Geodesic Dilation And Erosion In Morphology](https://epochabuse.com/geodesic-dilation-and-erosion/)
 
+### Books
+
+- [Chapter 6 from the book *Morphological Image Analysis, Principles and Applications*](https://link.springer.com/book/10.1007/978-3-662-05088-0)
+- [Chapter 12 from the book *Morphological Image Analysis, Principles and Applications*](https://link.springer.com/book/10.1007/978-3-662-05088-0)
+
 ### Papers
 
-- [Morphological Grayscale Reconstruction in Image Analysis:
-Applications and Efficient Algorithms](https://people.cmm.minesparis.psl.eu/users/marcoteg/cv/publi_pdf/MM_refs/Vincent/93ieeeip_recons.pdf)
+- [Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms](https://people.cmm.minesparis.psl.eu/users/marcoteg/cv/publi_pdf/MM_refs/Vincent/93ieeeip_recons.pdf)
 - [Efficient Morphological Reconstruction: A Downhill Filter](https://doras.dcu.ie/18762/1/whelan_2004_104.pdf)
 
 ### YouTube
