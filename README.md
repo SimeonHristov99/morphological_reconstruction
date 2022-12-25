@@ -6,6 +6,7 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
 
 - [ ] Research - gain understanding of the task at hand.
   - [X] Read and add review of *Understanding Morphological Image Processing and Its Operations*.
+  - [X] Read and add review of *Intro to Morphological Reconstruction*.
   - [ ] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
   - [ ] Read and add review of chapter 12 from the book *Morphological Image Analysis, Principles and Applications*.
   - [ ] Read and add review of *Morphological Reconstruction*.
