@@ -29,6 +29,14 @@ Most useful
 
 Moderate
 
+    Morphological Reconstruction
+        What did the authors try to accomplish?
+            Describe what the process entails and give examples of applications and algorithms.
+        What were the key elements of the approach?
+            In a short and concise manner explain what the term means / the goal of the process is and give an example.
+        What can you use yourself?
+            It talks about H-Dome Extraction, Downhill Filter, and Hybrid Algorithm. These are applications and knowing them might be useful.
+            In the first paragraph they have a bullet list with applications. In my opinion, they are not very practical, but could serve as an inspiration and be further researched.
 
 
 Not useful
