@@ -13,12 +13,12 @@ Most useful
 
     Intro to Morphological Reconstruction
         What did the authors try to accomplish?
-            Present in a clear and concise manner what this opeations entails.
+            Present in a clear and concise manner what this operations entails.
         What were the key elements of the approach?
             Lots of very useful examples.
             No Maths.
         What can you use yourself?
-            It turns out that morphological reconstruction is actually another type of morphological opeations. I thouht it was something like an application of them / an algorithm.
+            It turns out that morphological reconstruction is actually another type of morphological operations. I thought it was something like an application of them / an algorithm.
             This operation builds on top of dilation.
             Can be used in a presentation as a general structure to follow.
             Can be used in a presentation when giving examples.
@@ -41,5 +41,12 @@ Moderate
 
 Not useful
 
-
+    Efficient Morphological Reconstruction: A Downhill Filter
+        What did the authors try to accomplish?
+            Introduce a very fast algorithm for performing morphological reconstruction - the downhill filter.
+            They also list and compare it with four more algorithms.
+        What were the key elements of the approach?
+            Use of a random access queue. A consequence of this is data insensitivity.
+        What can you use yourself?
+            This paper relates more to the topic of "efficient algorithms for morphological reconstruction" and thus can be considered a subtopic which should not be in my focus.
 
