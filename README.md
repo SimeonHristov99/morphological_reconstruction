@@ -9,27 +9,13 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
   - [X] Read and add review of *Intro to Morphological Reconstruction*.
   - [X] Read and add review of *Morphological Reconstruction*.
   - [X] Read and add review of *Efficient Morphological Reconstruction: A Downhill Filter*.
-  - [ ] Read and add review of *Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms*.
-  - [ ] Read and add review of *How To Make Geodesic Dilation And Erosion In Morphology*.
+  - [X] Read and add review of *Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms*.
+  - [X] Read and add review of *How To Make Geodesic Dilation And Erosion In Morphology*.
   - [ ] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
   - [ ] Read and add review of chapter 12 from the book *Morphological Image Analysis, Principles and Applications*.
   - [ ] Explore the API of scikit-image.
-- [ ] Design an MVP.
-- [ ] Based on MVP extend this list with new tasks.
-
-## Theory
-
-### Description and formulation of the problem
-
-The problem we are going to solve is geodesic interpolation - interpolating white pixels between the contours of contour lines.
-
-### Critical analysis of the current algorithms and methods for solving the problem
-
-TODO
-
-### Detailed description of the chosen algorithms and methods for solving the problem
-
-TODO
+- [ ] Write theory for morphological reconstruction in the binary case - leaving only the objects that are marked.
+- [ ] Try to implement the morphological reconstruction in the binary case - use the picture in the book to get the idea.
 
 ## Resources
 

@@ -25,6 +25,24 @@ Most useful
         What other references do you want to follow?
             The last part (at the very bottom) is called "Applications of Morphological Reconstruction" and could be used for the second part of the project, but also the theorical part (where applications are discussed).
 
+    Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms
+        What did the authors try to accomplish?
+            Give definitions for the elementary operations making up morphological reconstruction, present applications, and list algorithms for implementing it.
+        What were the key elements of the approach?
+            Helpful pictures are presented.
+            Several definitions are given for the same concept.
+        What can you use yourself?
+            I found it interesting that different definitions for the same concept are given - they can be used for the theory part as well as a more in-depth understanding of the concepts.
+
+How To Make Geodesic Dilation And Erosion In Morphology
+    What did the authors try to accomplish?
+        Short and to-the-point article that describes what geodesic dilation and erosion are. It provides nice visuals and pictures.
+    What were the key elements of the approach?
+        The pictures are very intuitive.
+        It also refers to the same terminology that is used in the books and other articles which is very good.
+    What can you use yourself?
+        The pictures can be used as a testing suite for the elementary geodesic dilation and erosion.
+        The code can be used if having problems with the implementation.
 
 
 Moderate

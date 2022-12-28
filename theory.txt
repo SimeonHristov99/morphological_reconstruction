@@ -1,0 +1,59 @@
+########################################################################################################################
+# Description and formulation of the problem
+########################################################################################################################
+
+The problem we are going to solve is geodesic interpolation - interpolating white pixels between the contours of contour lines.
+marker image: the image on which geodesic dilations and erosions are performed.
+mask image: the image which will limit the growth or shrinkage of the marker image.
+
+
+
+
+The morphological transformations discussed in class involved combinations of one input image with specific structuring elements. The approach taken with geodesic transformations is to consider two input images. A morphological transformation is applied to the first image and it is then forced to remain either above or below the second image. The morphological transformations are restricted to elementary erosions and dilations and the choice of specific structuring elements is therefore eluded. In practice, geodesic transformations are iterated until stability making the choice of a size unnecessary. It is actually the combination of appropriate pairs of input images which produces new morphological primitives. These primitives are at the basis of formal definitions of many important image structures for both binary and grey scale images.
+
+Morphological reconstruction is part of a set of image operators often referred to as geodesic. In the binary case, reconstruction simply extracts the connected components of a binary image I (the mask) which are "marked" by a (binary) image J contained in I . This transformation can be extended to the grayscale case, where it turns out to be extremely useful for several image analysis tasks.
+
+Reconstruction is a very useful operator provided by mathematical morphology. Although it can easily be defined in itself, it is often presented as part as a set of operators known as geodesic ones. The reconstruction transformation is relatively well-known in the binary case, where it simply extracts the connected components of an image which are "marked" by another image. However, reconstruction can be defined for grayscale images as well. In this framework, it turns out to be particularly interesting for several filtering, segmentation and feature extraction tasks. Surprisingly, it has attracted little attention in the image analysis community.
+
+
+
+
+
+
+
+
+
+The first application deals with extracting objects from a binary image.
+
+import numpy as np
+np_img = np.array(uploaded['Screenshot from 2022-12-27 14-46-20.png'])
+
+
+
+
+
+The second application deals with the interpolation of contour line images. By contour line image, we mean an image where intensity values are known only along closed contour lines. An image of elevation contour lines is shown in Fig. 6.31: each line has a constant grey scale value corresponding to the terrain elevation along the line and the elevation values of the pixels belonging to white regions in between two successive contour lines are unknown. In this example, contour lines are associated with terrain elevation values but they could represent other spatial-dependent characteristics of an object. For instance, one could transform a grey tone image into an image of iso-intensity contour lines and then attempt to regenerate the original image (i.e., lossy image compression technique). There is therefore a need for interpolating values located in between successive contour lines. Geodesic transformations are at the basis of an efficient method taking advantage of the topological and morphological properties of th e contour lines (Soill e, 1991).
+
+
+
+
+
+
+
+
+########################################################################################################################
+# Critical analysis of the current algorithms and methods for solving the problem
+########################################################################################################################
+
+TODO
+
+########################################################################################################################
+# Detailed description of the chosen algorithms and methods for solving the problem
+########################################################################################################################
+
+The method requires two steps:
+    1. generation of two plateau images;
+    2. interpolation along the steepest slope lines.
+The first step illustrates well the use of morphological reconstruction techniques. It consists in finding for each white pixel the elevation of both contour lines surrounding the white region it belongs to. A magnified section of an image of contour lines is presented in Fig. 6.32a. The pixel p lies within a white region surrounded by two contour lines referred to as its lower and upper contour lines. The lower contour line of a pixel p is denoted by C1(p) and the upper one by Cu(p). These two contour lines may be identical as shown in Fig. 6.32b or when p is located precisely on a contour line.
+
+... (put everything till the end of the chapter)
