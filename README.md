@@ -4,24 +4,26 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
 
 ## Plan of attack
 
-- [ ] Research - gain understanding of the task at hand.
-  - [X] Read and add review of *Understanding Morphological Image Processing and Its Operations*.
-  - [X] Read and add review of *Intro to Morphological Reconstruction*.
-  - [X] Read and add review of *Morphological Reconstruction*.
-  - [X] Read and add review of *Efficient Morphological Reconstruction: A Downhill Filter*.
-  - [X] Read and add review of *Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms*.
-  - [X] Read and add review of *How To Make Geodesic Dilation And Erosion In Morphology*.
-  - [ ] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
-  - [ ] Read and add review of chapter 12 from the book *Morphological Image Analysis, Principles and Applications*.
-  - [ ] Explore the API of scikit-image.
-- [ ] Write theory for morphological reconstruction in the binary case - leaving only the objects that are marked.
-- [ ] Try to implement the morphological reconstruction in the binary case - use the picture in the book to get the idea.
+- [X] Read and add review of *Understanding Morphological Image Processing and Its Operations*.
+- [X] Read and add review of *Intro to Morphological Reconstruction*.
+- [X] Read and add review of *Morphological Reconstruction*.
+- [X] Read and add review of *Efficient Morphological Reconstruction: A Downhill Filter*.
+- [X] Read and add review of *Morphological Grayscale Reconstruction in Image Analysis: Applications and Efficient Algorithms*.
+- [X] Read and add review of *How To Make Geodesic Dilation And Erosion In Morphology*.
+- [X] Write preliminary theory for morphological reconstruction in the binary case - leaving only the objects that are marked.
+- [X] Explore the API of scikit-image. Will use it to check whether my implementations match those in scikit-image.
+- [X] Get the datasets mnist (digits), fashion_mnist (clothes), and emnist (characters).
+- [X] Elementary dilation. Validate with scikit-image on the random images from the datasets.
+- [ ] Geodesic dilation.Validate with scikit-image on the random images from the datasets.
+- [ ] Morphological dilation using dilation. Validate with scikit-image on the random images from the datasets.
+- [ ] Same but with erosion. Validate with scikit-image on the random images from the datasets.
+- [ ] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
 
 ## Resources
 
 ### APIs
 
-- https://scikit-image.org/docs/stable/api/skimage.morphology.html
+- [scikit-image](https://scikit-image.org/docs/stable/api/skimage.morphology.html)
 
 ### Articles
 
