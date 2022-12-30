@@ -13,9 +13,11 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
 - [X] Write preliminary theory for morphological reconstruction in the binary case - leaving only the objects that are marked.
 - [X] Explore the API of scikit-image. Will use it to check whether my implementations match those in scikit-image.
 - [X] Get the datasets mnist (digits), fashion_mnist (clothes), and emnist (characters).
-- [X] Elementary dilation. Validate with scikit-image on the random images from the datasets.
-- [ ] Geodesic dilation.Validate with scikit-image on the random images from the datasets.
-- [ ] Morphological dilation using dilation. Validate with scikit-image on the random images from the datasets.
+- [X] Elementary dilation for grayscale images. Validate with scikit-image on the random images from the datasets.
+- [X] Elementary erosion for grayscale images. Validate with scikit-image on the random images from the datasets.
+- [ ] Geodesic dilation for grayscale images. Validate with scikit-image on the random images from the datasets.
+- [ ] Geodesic erosion for grayscale images. Validate with scikit-image on the random images from the datasets.
+- [ ] Morphological reconstruction using dilation. Validate with scikit-image on the random images from the datasets.
 - [ ] Same but with erosion. Validate with scikit-image on the random images from the datasets.
 - [ ] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
 
