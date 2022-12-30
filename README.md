@@ -2,6 +2,15 @@
 
 Holds code for a project made when taking the coarse "Image Preprocessing" in FMI.
 
+## Quick Start
+
+```bash
+python3 -m venv venv
+./venv/bin/activate
+pip install -r requirements.txt
+# you can now run the notebook :)
+```
+
 ## Description and formulation of the problem
 
 The morphological transformations discussed in class involved combinations of one input image with specific structuring elements. The approach taken with morphological reconstruction is to consider **two input images**. A morphological transformation is applied to the first image and it is then forced to remain either above or below the second image. The morphological transformations are restricted to elementary erosions and dilations and the choice of specific structuring elements is therefore **eluded**. In practice, geodesic transformations are iterated until stability making the choice of a size unnecessary. It is actually the combination of appropriate pairs of input images which produces new morphological primitives. These primitives are at the basis of formal definitions of many important image structures for both binary and grey scale images.
