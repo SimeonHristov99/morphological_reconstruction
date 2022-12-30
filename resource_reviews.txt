@@ -1,5 +1,14 @@
 Most useful
 
+    Morphological Image Analysis, Principles and Applications
+        What did the authors try to accomplish?
+            This is a book about image preprocessing. The authors tried to outline the current state of the field.
+        What were the key elements of the approach?
+            The examples are very well explained.
+            Also, the fact that there are a lot of examples and applications.
+        What can you use yourself?
+            By far the most useful resource. A lot of text has been taken for the theory part.
+
     Understanding Morphological Image Processing and Its Operations
         What did the authors try to accomplish?
             This article is a very good introduction to the two most widely used morphological operations.
