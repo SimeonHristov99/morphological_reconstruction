@@ -15,6 +15,9 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
 - [X] Get the datasets mnist (digits), fashion_mnist (clothes), and emnist (characters).
 - [X] Elementary dilation for grayscale images. Validate with scikit-image on the random images from the datasets.
 - [X] Elementary erosion for grayscale images. Validate with scikit-image on the random images from the datasets.
+- [X] Geodesic dilation for grayscale images. Validate with scikit-image on the random images from the datasets.
+- [X] Geodesic erosion for grayscale images. Validate with scikit-image on the random images from the datasets.
+- [X] Morphological reconstruction using dilation. Validate with scikit-image on the random images from the datasets.
 - [X] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
 
 ## Resources
