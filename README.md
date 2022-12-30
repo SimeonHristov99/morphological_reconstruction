@@ -19,6 +19,9 @@ Holds code for a project made when taking the coarse "Image Preprocessing" in FM
 - [X] Geodesic erosion for grayscale images. Validate with scikit-image on the random images from the datasets.
 - [X] Morphological reconstruction using dilation. Validate with scikit-image on the random images from the datasets.
 - [X] Read and add review of chapter 6 from the book *Morphological Image Analysis, Principles and Applications*.
+- [X] Add application 1.
+- [X] Add application 2.
+- [ ] Theory iteration 2.
 
 ## Resources
 
