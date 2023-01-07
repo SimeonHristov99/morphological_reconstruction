@@ -76,7 +76,7 @@ In our approach we'll create the mask ourselves, but in the general case there a
 - other image data if available (i.e., multispectral and multitemporal images);
 - interaction with the user (i.e., markers are manually defined).
 
-One or usually a combination of these approaches is considered. The third one is the most utilised in practice but it is also the most critical because it requires the selection of an adequate transformation or even a sequence of transformations. For the reconstruction by erosion and dilation, the marker image has to be greater (resp. less) than the mask image. It can then be generated using extensive (resp. anti-extensive) transformations.
+One or usually a combination of these approaches is considered. The third one is the most utilized in practice but it is also the most critical because it requires the selection of an adequate transformation or even a sequence of transformations. For the reconstruction by erosion and dilation, the marker image has to be greater (resp. less) than the mask image. It can then be generated using extensive (resp. anti-extensive) transformations.
 
 **The first application** we'll show illustrates how reconstruction by dilation can reconstruct of all objects of an image *X* marked by an image *Y*. The idea is that due to the sequence of geodesic dilations, the propagation of the seeds is restricted to the particles they belong to. An example is shown below:
 
